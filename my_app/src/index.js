@@ -1,11 +1,12 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
 
-const HelloReact = (
-    <div className="jumbotron">
-        <h1>Hello React</h1>
-    </div>
+import HelloJS from './components/HelloJS';
 
-    );
+const props = {
+    title: "Angular",
+    description: "JavaScript framework library for building user interfaces"
+};
 
-ReactDOM.render(HelloReact, document.getElementById("root"));
+
+ReactDOM.render(<HelloJS title="React" description="JavaScript framework library for building user interfaces" />, document.getElementById("root"));
