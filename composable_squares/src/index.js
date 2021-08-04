@@ -3,7 +3,9 @@ import React from 'react';
 
 import ComSquares from './components/composable_squares';
 
-// import RandomBG from './components/composable_squares';
+import InfoCard from './components/InfoCard';
+
+import RandomBG from './components/composable_squares';
 
 // const RandomBG = () => {
 //     const randomColor = 
@@ -25,3 +27,5 @@ import ComSquares from './components/composable_squares';
 // ReactDOM.render(<ComSquares bgColor={RandomBG} txtColor={RandomBG}/>, document.getElementById("root"));
 
 ReactDOM.render(<ComSquares />, document.getElementById("root"));
+
+ReactDOM.render(<InfoCard title = "Unicorn" description = "mythical beast" imagePath = "public/images/unicorn.jpeg"/>, document.getElementById("root"));

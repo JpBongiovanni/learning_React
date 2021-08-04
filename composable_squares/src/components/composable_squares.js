@@ -23,8 +23,8 @@ const ComSquares = (props) => {
 }
 
 const RandomBG = () => {
-    "#" + ((1<<24)*Math.random() | 0).toString(16);
+    var color = "#" + ((1<<24)*Math.random() | 0).toString(16);
 }
 
 export default ComSquares;
-// export {RandomBG};
+export {RandomBG};
